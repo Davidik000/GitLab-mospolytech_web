@@ -1,0 +1,145 @@
+.justify {
+    margin: 1em;
+    text-align: justify;
+    font-size: 22px;
+    text-indent: 20px;
+    font-family: 'Kantumruy';
+    line-height: 1.5;
+    background: white;
+    border: 2px solid black; 
+    border-radius: 8px;
+    padding: 19px;
+    box-sizing: border-box;
+    
+ }
+
+ body{
+    background: linear-gradient(grey, white ) fixed;
+ }
+
+ .imge{
+    transform: translateX(40px);
+    max-width: 530px;
+    min-height: auto;
+    border: 2px solid black;
+    top: 10px;
+    left: 10px; 
+    margin: 2px;
+ }
+
+ .stroka{
+    font-size: 21px;
+    line-height: 1.7;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: white;
+    margin: 1em;
+ }
+
+.stroka2{
+   border: 1rem red solid;
+   background: white;
+   text-indent: 21px;
+   box-sizing: border-box;
+   width: 300px;
+   height: 60px;
+}
+
+section{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap: 0.5em;
+}
+
+.d{
+   flex-basis: 50px;
+   flex-grow: 1;
+   flex-shrink: 2;
+}
+
+.d1{
+   flex: 3 1 auto;
+   
+}
+
+th{
+   font-size: 20px;
+}
+  
+ .text{
+    font-family: 'Kantumruy';
+    text-align: justify;
+    font-size: 22px;
+    line-height: 1.5;
+    padding: 20px; 
+    background: white;
+    border: 2px solid black; 
+    border-radius: 8px;
+    float:left;
+    text-indent: 30px;  
+    margin: 1em;
+ }
+
+
+ .men{
+    float: left;
+ }
+
+ .men2{
+   position: absolute;
+   top: 1050px;
+   right: 500px;
+   width: 550px;
+   height: auto;
+   border: 1px solid;
+   border-color: aliceblue;
+ }
+
+ .sign{
+   width: 70px;
+   height: auto;
+ }
+
+ .center1{
+    text-align: right;
+    position: sticky;
+    top: 20px;
+    left: 20px;
+    font-size: 35px;
+    z-index: 1;
+
+ }
+
+ .center2{
+    text-align: center;
+    font-size: 40px;
+    padding: 4px;
+    background-color: red;
+ }
+
+
+ .center3{
+    text-align: center;
+    font-size: 40px;
+    background-color: red;
+    padding: 4px;
+ }
+
+
+ .center4{
+    text-align: center;
+    font-size: 40px;
+    background-color: red;
+    padding: 4px;
+ }
+
+
+ .link{
+    text-decoration: none;
+ }
+
+
+
+ 
